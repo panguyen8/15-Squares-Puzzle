@@ -49,7 +49,10 @@ public class PuzzleController{
             }
         }
         boardNormal[3][3] = 0;
+        resetBoard();
 
+        //set size to two to randomize board
+        puzzleV.size = 2;
         //for boardLarge
         int countLarge = 1;
         for (int yDir = 0; yDir < 7; yDir++) {
@@ -62,6 +65,9 @@ public class PuzzleController{
 
         //reset board randomizes the values
         resetBoard();
+
+        //turn size back into 1
+        puzzleV.size = 1;
     }
 
     /**
