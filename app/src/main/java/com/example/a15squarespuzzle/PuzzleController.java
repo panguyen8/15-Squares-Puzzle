@@ -7,7 +7,12 @@ import android.view.View;
 import java.util.Random;
 
 /**
- * PuzzleController class which controls the gameplay of the game
+ * PuzzleController class which controls the gameplay of the game.
+ *
+ * Click to move and when puzzle is done, click verify. If board turns green
+ * it indicates a correct board and will not switch otherwise.
+ *
+ * Board can be 4x4 of 7x7
  *
  * @author Phuocan Nguyen
  * @version November 2019
